@@ -33,7 +33,7 @@ In order to use this script it is assumed that:
 ### Usage intructions
 
 1. Download and extract [UCI HAR Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) into your current working directory, maintaining subdirectories structure contained in the zipped file
-2. Download "run_analysis.R" script into your current working directory
+2. Download [run_analysis.R](https://github.com/marioem/GCD_CourseProject/blob/master/run_analysis.R) script into your current working directory
 3. Run the script using `source("run_analysis.R")`
 4. Output file *"UCItidyDataMeans.txt"* (wide form) is stored in "UCI HAR Dataset" directory
      
@@ -68,3 +68,5 @@ In order to reduce the memory usage during script execution, the intermediate da
 - Mac OS X 10.10.5
 - RStudio 0.99.467
 - R 3.2.1
+
+*Rev. 1.0.1<br>2015.08.23*
