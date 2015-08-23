@@ -10,7 +10,7 @@ This repository contains the following files:
 ## run_analysis.R script
 ### Purpose
 
-This script is aimed at generating tidy data set from the data collected during the project "Human Activity Recognition Using Smartphones Data Set". The script forms part of the "Getting and Cleaning Data" course project offered by JHU School of Public Health, delivered through [Coursera](coursera.com).
+This script is aimed at generating tidy data set from the data collected during the project "Human Activity Recognition Using Smartphones Data Set". The script forms part of the "Getting and Cleaning Data" course project offered by JHU School of Public Health, delivered through [Coursera](http://coursera.com).
 
 More information about the "Human Activity Recognition Using Smartphones Data Set" project (including detailed data description) can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
