@@ -5,7 +5,7 @@
 
 The *UCItidyDataMeans.txt* data set is derived from "Human Activity Recognition Using Smartphones Data Set" available [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) using [*run_analysis.R*](https://github.com/marioem/GCD_CourseProject/blob/master/run_analysis.R) script.
 
-Original data set contains, among others, a 561-feature vector with measurements from smartphone accelerometer and gyroscope in the time and frequency domain, accompanied by the IDs of the subject taking part in the experiment and of the activity the subject was performing. This 561-featre vector data set is the source of data used to prepare the tidy data set described in this codebook.
+Original data set contains, among others, a 561-feature vector with measurements from smartphone accelerometer and gyroscope in the time and frequency domains, accompanied by the IDs of the subject taking part in the experiment and of the activity the subject was performing. This 561-featre vector data set is the source of data used to prepare the tidy data set described in this codebook.
 
 Detailed description of every variable in the feature data set is available in the ***features_info.txt*** file distributed with the original data set.
 
@@ -17,9 +17,26 @@ To access the home page of the "Human Activity Recognition Using Smartphones" pr
 
 The *UCItidyDataMeans.txt* data set is organized in a table of 181 rows (including headers) and 81 columns. Rows represent observations and columns observed variables (measurements).
 ###Variable naming conventions
+Variable naming for variables in columns 3 through 81 is derived from the original data set conventions:
+
+* measurement domain indicates one-letter prefix: t - time, f - frequency
+* acceleration source indicates particle: Body - body component, Gravity - gravitational component
+* source device, particle: Acc - accelerometer, Gyro - gyroscope
+* Jerk signal, particle: Jerk
+* cartesian coordinates signal component, particles: X, Y, Z
+* magnitude of the cartesian components, particle: Mag
+* estimations appled to signal variables: mean - arithmetic mean, std - standard deviation
+
+		Important:
+		As all the variables in this tidy data set are means of the 
+		original variables (i.e. they are eiter means of means or
+		means of standard deviations) this additional application of 
+		mean function is not indicated in the variable name of the
+		tidy data set.
+
 ###Transformations applied to source data set
 
-The source data set is available in two subsets: test and training. Those two subsets are merged into one data set. From the merged data set only the measurements on the mean and standard deviation for each measurement are extracted. Then for each subject and for each activity a mean value for all the extracted measurements is calculated. Those mean values are stored in the variables in columns 3 through 81, described in a table below.
+The source data set is available in two subsets: test and training. Those two subsets are merged into one data set. From the merged data set only the measurements on the mean and standard deviation for each measurement are extracted. Then for each subject and for each activity **a mean value for all the extracted measurements is calculated**. Those mean values are stored in the variables in columns 3 through 81, described in a table below.
 ###Units
 
 All variables are unitless. For variables in columns 3 through 81 this is due to their normalization.
