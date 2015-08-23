@@ -1,15 +1,17 @@
 #################################################################################
 #
-# Filename: run_analysis.R
-#  Version: 1.0
-#     Date: 2015.08.23
-#   Author: Mariusz Musiał
+#  Filename: run_analysis.R
+#   Version: 1.0.1
+#      Date: 2015.08.23
+#    Author: Mariusz Musiał
+# Rev. Info: 1.0 - initial version of the script
+#            1.0.1 - version info added. Some spelling and white space cleanup
 #
 # This script is aimed at generating tidy data set from the data collected during
 # the project "Human Activity Recognition Using Smartphones Data Set". It forms
 # part of the "Getting and Cleaning Data" course project offered by JHU through
 # Coursera.com. More data about the "Human Activity Recognition Using Smartphones
-# Data Set" project can be foud at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+# Data Set" project can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 #
 # According to instructions set out in the course project description, this script
 # does the following:
@@ -143,4 +145,3 @@ if(file.exists(tidyFile)) {
 write.table(tidyData, tidyFile, row.names = F)
 
 cat("Done\n")
-
