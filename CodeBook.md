@@ -40,6 +40,8 @@ The source data set is available in two subsets: test and training. Those two su
 ###Units
 
 All variables are unitless. For variables in columns 3 through 81 this is due to their normalization.
+
+Original linear inertial signals are expressed in 'g' units and radial inertial signals in rad/s.
 ###Ranges
 
 All variables in columns 3 through 81 are normalized i.e. their range is [-1,1]
@@ -132,4 +134,4 @@ All variables in columns 3 through 81 are normalized i.e. their range is [-1,1]
 | 80 |  fBodyGyroJerkMag.std | Num | Mean of fBodyBodyGyroJerkMag-std() |
 | 81 |  fBodyGyroJerkMag.meanFreq | Num | Mean of fBodyBodyGyroJerkMag-meanFreq() |
 
-*Rev. 1.0<br>2015.08.23*
+*Rev. 1.0.1<br>2015.08.23*
