@@ -68,7 +68,3 @@ In order to reduce the memory usage during script execution, the intermediate da
 - Mac OS X 10.10.5
 - RStudio 0.99.467
 - R 3.2.1
-
-Also, the overview of the processing steps in the code, and the reasoning behind any decisions you made about things to include or exclude goes in the README.md document. 
-
-Activity code/id variable is dropped in favour of ActivityName
