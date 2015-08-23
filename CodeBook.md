@@ -24,7 +24,7 @@ Variable naming for variables in columns 3 through 81 is derived from the origin
 * source device, particle: Acc - accelerometer, Gyro - gyroscope
 * Jerk signal, particle: Jerk
 * cartesian coordinates signal component, particles: X, Y, Z
-* magnitude of the cartesian components, particle: Mag
+* magnitude of the signal in 3D space, particle: Mag
 * estimations appled to signal variables: mean - arithmetic mean, std - standard deviation
 
 		Important:
