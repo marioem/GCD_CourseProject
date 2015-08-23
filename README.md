@@ -22,7 +22,7 @@ According to the instructions set out in the course project description, this sc
  4. creates a second, independent tidy data set with the average of each variable for each activity and each subject.
  5. Appropriately labels the data set with descriptive variable names. 
 
-	Important: see also **Notes of the implementation of steps 4 and 5.** later in this document.
+	Important: see also **Notes of the implementation of steps 4 and 5** later in this document.
 
 ### Assumptions
 In order to use this script it is assumed that:
@@ -69,4 +69,4 @@ In order to reduce the memory usage during script execution, the intermediate da
 - RStudio 0.99.467
 - R 3.2.1
 
-*Rev. 1.0.1<br>2015.08.23*
+*Rev. 1.0.2<br>2015.08.23*
